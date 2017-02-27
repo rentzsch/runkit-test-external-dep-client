@@ -1,3 +1,9 @@
 const runkitTestExternalDep = require('runkit-test-external-dep');
 
-console.log('runkit-test-external-dep version:', runkitTestExternalDep);
+module.exports = {
+    'runkit-test-external-dep version': runkitTestExternalDep,
+    'runkit-test-external-dep-client version': require('./package.json').version,
+};
+
+
+console.log(module.exports);
