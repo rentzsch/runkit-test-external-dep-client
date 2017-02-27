@@ -5,5 +5,3 @@ module.exports = {
     'runkit-test-external-dep-client version': require('./package.json').version,
 };
 
-
-console.log(module.exports);
